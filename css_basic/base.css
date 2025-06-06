@@ -1,8 +1,8 @@
-/* base.css */
-body {margin: 0;
-padding: 0;
-font-family: Arial, sans-serif;}
-main {
-    max-width: 960px;
-    margin: auto;
+.works_on_smartphone main {
+    display: block;
+}
+
+.works_on_smartphone article,
+.works_on_smartphone aside {
+    width: 100;
 }
