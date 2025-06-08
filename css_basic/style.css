@@ -16,6 +16,8 @@ body {
     padding: 20px;
     overflow-y: auto;
     background-color: #f0f8ff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
   }
   
   aside {
@@ -23,6 +25,7 @@ body {
     padding: 20px;
     overflow-y: auto;
     background-color: #f9f9f9;
+    border-left: 3px solid #ccc;
   }
   
   header, footer {
@@ -39,4 +42,19 @@ body {
 .works_on_smartphone article,
 .works_on_smartphone aside {
     width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #333;
+}
+
+a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
