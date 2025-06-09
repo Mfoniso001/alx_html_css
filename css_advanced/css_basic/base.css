@@ -1,0 +1,8 @@
+.works_on_smartphone main {
+    display: block;
+}
+
+.works_on_smartphone article,
+.works_on_smartphone aside {
+    width: 100;
+}
