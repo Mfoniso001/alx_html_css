@@ -8,7 +8,6 @@ body {
 header {
     background-color: #000000;
     padding: 20px 0;
-
 }
 
 nav {
@@ -22,22 +21,19 @@ nav {
 
 nav img {
     height: 40px;
-    width: auto;
 }
 
 nav ul {
     display: flex;
     list-style: none;
     gap: 30px;
-    margin: 0;
-    padding: 0;
 }
+
 nav a {
     color: white;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
-    text-transform: uppercase;
 }
 
 /* Hero section */
@@ -72,4 +68,64 @@ section:first-of-type button {
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
+}
+
+/* Base styles (if not yet defined) */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Central container for sections */
+.section {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+/* Quote Section */
+.quote {
+    background-color: #C271FF;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.quote .quote-text {
+    font-size: 22px;
+    font-style: italic;
+    line-height: 1.5;
+    max-width: 740px;
+    margin: 0 auto 30px;
+}
+
+.quote .author-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.quote .author-info img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.quote .author-details {
+    text-align: left;
+}
+
+.quote .author-name {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.quote .author-title {
+    font-size: 16px;
+    opacity: 0.9;
 }
