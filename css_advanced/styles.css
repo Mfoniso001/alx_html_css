@@ -396,3 +396,61 @@ section:nth-of-type(3) > div > div > p:last-of-type {
     color: #c271ff;
     text-align: right;
   }
+
+  .membership {
+    padding: 60px 80px;
+    background-color: #071629; /* dark navy blue */
+    text-align: center;
+  }
+  
+  .membership h2 {
+    font-size: 32px;
+    color: #fff; /* white text */
+    margin-bottom: 50px;
+  }
+  
+  .membership-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+  }
+  
+  .membership-card {
+    background-color: transparent;
+    width: 22%;
+    padding: 30px 20px;
+  }
+  
+  .membership-card img {
+    height: 80px;
+    margin-bottom: 20px;
+  }
+  
+  .membership-card h3 {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  
+  .membership-card p {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+    line-height: 1.5;
+  }
+  
+  .membership button {
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .membership button:hover {
+    background-color: #a450f8;
+  }
+  
