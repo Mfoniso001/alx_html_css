@@ -129,3 +129,270 @@ body {
     font-size: 16px;
     opacity: 0.9;
 }
+
+/* Videos list section */
+section:nth-of-type(3) {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+section:nth-of-type(3) h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: #071629;
+}
+
+/* Container for all cards */
+section:nth-of-type(3) > div {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual card */
+section:nth-of-type(3) > div > div {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(7, 22, 41, 0.1);
+    padding: 15px;
+    text-align: left;
+}
+
+section:nth-of-type(3) img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+section:nth-of-type(3) h3 {
+    font-size: 18px;
+    margin: 15px 0 10px;
+    color: #071629;
+}
+
+section:nth-of-type(3) p {
+    font-size: 14px;
+    color: #4b4b4b;
+    margin-bottom: 15px;
+}
+
+/* Author row */
+section:nth-of-type(3) > div > div > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+section:nth-of-type(3) h4 {
+    font-size: 14px;
+    color: #071629;
+}
+
+/* Star ratings */
+section:nth-of-type(3) > div > div > div:nth-of-type(2) {
+    display: flex;
+    gap: 4px;
+    margin: 10px 0;
+    color: #ffc107; /* gold/yellow stars */
+}
+
+section:nth-of-type(3) > div > div > p:last-of-type {
+    font-size: 12px;
+    color: #999;
+}
+
+.video-thumbnail {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  
+  .video-thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+    display: block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c271ff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .play-button i {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .stars i {
+    color: #ffc107; /* yellow color */
+    font-size: 14px;
+  }
+
+  .videos {
+    padding: 60px 100px;
+    text-align: center;
+  }
+  
+  .videos h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #333;
+  }
+  
+  .video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .video-card {
+    background: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 22%; /* About 4 cards per row */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+  
+  .video-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .video-card h3 {
+    margin-top: 15px;
+    font-size: 20px;
+  }
+  
+  .video-card p {
+    font-size: 14px;
+    color: #777;
+    margin: 10px 0;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+  }
+  
+  .videos {
+    padding: 60px 80px;
+    text-align: center;
+  }
+  
+  .videos h2 {
+    font-size: 32px;
+    margin-bottom: 50px;
+    color: #071629;
+  }
+  
+  .video-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+  }
+  
+  .video-card {
+    background: #fff;
+    border-radius: 8px;
+    width: 22%;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .thumbnail {
+    position: relative;
+  }
+  
+  .thumbnail img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #c271ff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+  }
+  
+  .video-card h3 {
+    margin: 15px 20px 10px 20px;
+    font-size: 20px;
+    color: #071629;
+  }
+  
+  .video-card p {
+    margin: 0 20px 10px 20px;
+    font-size: 14px;
+    color: #7c7c7c;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    margin: 15px 20px 10px 20px;
+  }
+  
+  .author img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .author h4 {
+    font-size: 14px;
+    margin: 0;
+    color: #c271ff;
+  }
+  
+  .stars {
+    display: flex;
+    gap: 4px;
+    margin: 10px 20px;
+  }
+  
+  .stars i {
+    color: #ffc107;
+    font-size: 14px;
+  }
+  
+  .duration {
+    margin: 0 20px;
+    font-size: 14px;
+    color: #c271ff;
+    text-align: right;
+  }
