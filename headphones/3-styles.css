@@ -1,0 +1,62 @@
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #f2f2f2;
+    padding: 60px 20px;
+  }
+  
+  .contact-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-section p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    background-color: #ff6565;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    opacity: 0.9;
+  }
+  
